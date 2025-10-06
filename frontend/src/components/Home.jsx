@@ -228,8 +228,8 @@ const Home = () => {
         <div className='bg-white py-4 px-1 flex justify-between'>
             <div className='w-[40%] px-1'>
                 <h2 className='mt-2 font-sans text-[1.7rem] text-gray-600'>WELCOME TO</h2>
-                <h1 className='font-bold text-[2.3rem] text-gray-800'>Everest Sanitation (India) </h1>
-                <p className='my-2 text-[15px]'>We,<span className='font-semibold'>Everest Sanitation (India)</span> from <span className='font-semibold'>1981</span> are one of a leading manufacturer of high-quality <span className='font-semibold'>Water meters,Flow Meters and Liquid Measuring Instruments</span>  committed to precision, durability, and innovation. <span className='font-semibold'>Read More...</span> </p>
+                <h1 className='font-bold text-[2.3rem] text-gray-800'>OCEAN WATER AND ENVIRO SOLUTIONS </h1>
+                <p className='my-2 text-[15px]'>We,<span className='font-semibold'>OCEAN WATER AND ENVIRO SOLUTIONS</span> from <span className='font-semibold'>1981</span> are one of a leading manufacturer of high-quality <span className='font-semibold'>Water meters,Flow Meters and Liquid Measuring Instruments</span>  committed to precision, durability, and innovation. <span className='font-semibold'>Read More...</span> </p>
                 <p className='my-3 text-gray-700'>GET IN TOUCH WITH US FOR BEST DEALS</p>
                 <div className='flex justify-center items-center w-50 h-13  rounded-md cursor-pointer text-white text-md font-semibold bg-teal-800 hover:text-teal-800 hover:bg-transparent border border-teal-800'>
                     <div>
