@@ -4,32 +4,25 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const Box2 = () => {
     const box = [
-        //    {
-        //     desc:"Lorem ipsum dolor this is coverd page sit amet consectetur adipisicing elit.",
-        //     filesize:".9mb",
-        //     close:false,
-        //     tag:{ isOpen:true, tagTitle:"Download Now . .", tagColor:"yellow"},
-        // },
         {
-            img:"https://5.imimg.com/data5/ANDROID/Default/2024/7/438475671/GO/GJ/JM/209080/product-jpeg-250x250.jpg",
-            text:"New Development",
+            img:"/src/assets/image18.jpeg",
             tag:{ isOpen:true, tagTitle:"Download Now . .", tagColor:"yellow"},
         },
         {
-            img:"https://5.imimg.com/data5/ANDROID/Default/2024/7/438427143/AZ/NJ/HI/209080/product-jpeg-250x250.jpg",
+            img:"/src/assets/image19.jpeg",
             text:"Flow Meter",
             tag:{ isOpen:true, tagTitle:"Download Now . .", tagColor:"yellow"},
         },
         {
-            img:"https://5.imimg.com/data5/ANDROID/Default/2024/7/438456437/MR/YE/KZ/209080/product-jpeg-250x250.jpg",
+            img:"/src/assets/image15.jpeg",
             tag:{ isOpen:false, tagTitle:"Download Now . .", tagColor:"yellow"},
         },
         {
-            img:"https://5.imimg.com/data5/ANDROID/Default/2024/7/436564943/CY/XJ/RP/209080/product-jpeg-250x250.jpg",
+            img:"/src/assets/image21.jpeg",
             tag:{ isOpen:false, tagTitle:"Download Now . .", tagColor:"yellow"},
         },
         {
-            img:"https://5.imimg.com/data5/ANDROID/Default/2024/7/438456437/MR/YE/KZ/209080/product-jpeg-250x250.jpg",
+            img:"/src/assets/image22.jpeg",
             tag:{ isOpen:false, tagTitle:"Download Now . .", tagColor:"yellow"},
         },
     ]

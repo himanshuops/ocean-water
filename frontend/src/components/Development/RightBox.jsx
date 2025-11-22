@@ -6,8 +6,9 @@ const RightBox = () => {
     const details = [
         {
             id: '1',
-            text: "Software Engineer",
-            img:"/src/assets/img4.jpeg",
+            classid: "Flow-Water-Sensor",
+            text: "Flow Water Sensor",
+            img:"/src/assets/image.jpeg",
             price:"17000",
             list: [
                 { id: '1', label: "Nominal Diameter ", label2: "25 mm" },
@@ -18,15 +19,16 @@ const RightBox = () => {
                 { id: '5', label: "Country of Origin", label2: "Mag Flow Meter" },
             ],
             images:[
-                { id: '1', img:"https://5.imimg.com/data5/SELLER/Default/2025/9/545774896/TM/FQ/QO/209080/mag-flow-meter-125x125.jpeg" },
-                { id: '2', img:"https://5.imimg.com/data5/SELLER/Default/2025/7/524612641/HU/UO/ZY/209080/cgwa-flow-meter-125x125.png" },
-                { id: '3', img:"https://5.imimg.com/data5/SELLER/Default/2025/7/524556845/JB/VB/RB/209080/cgwa-flow-meter-125x125.jpeg" },
+                { id: '1', img:"/src/assets/image26.jpeg" },
+                { id: '2', img:"/src/assets/image29.jpeg" },
+                { id: '3', img:"/src/assets/image27.jpeg" },
             ]
         },
         {
             id: '2',
-            text: "Software Engineer",
-            img:"/src/assets/img1.jpeg",
+            classid: "Mag-Flow-Meter",
+            text: "Mag Flow Meter",
+            img:"/src/assets/image2.jpeg",
             price:"17000",
             list: [
                 { id: '1', label: "Nominal Diameter ", label2: "25 mm" },
@@ -37,15 +39,16 @@ const RightBox = () => {
                 { id: '5', label: "Country of Origin", label2: "Mag Flow Meter" },
             ],
             images:[
-                { id: '1', img:"https://5.imimg.com/data5/SELLER/Default/2025/9/545774896/TM/FQ/QO/209080/mag-flow-meter-125x125.jpeg" },
-                { id: '2', img:"https://5.imimg.com/data5/SELLER/Default/2025/7/524612641/HU/UO/ZY/209080/cgwa-flow-meter-125x125.png" },
-                { id: '3', img:"https://5.imimg.com/data5/SELLER/Default/2025/7/524556845/JB/VB/RB/209080/cgwa-flow-meter-125x125.jpeg" },
+                { id: '1', img:"/src/assets/image26.jpeg" },
+                { id: '2', img:"/src/assets/image29.jpeg" },
+                { id: '3', img:"/src/assets/image27.jpeg" },
             ]
         },
         {
             id: '3',
-            text: "Software Engineer",
-            img:"/src/assets/img2.jpeg",
+            classid:"Magnetic-Flow-Sensor",
+            text: "Magnetic Flow Sensor",
+            img:"/src/assets/image3.jpeg",
             price:"17000",
             list: [
                 { id: '1', label: "Nominal Diameter ", label2: "25 mm" },
@@ -56,15 +59,15 @@ const RightBox = () => {
                 { id: '5', label: "Country of Origin", label2: "Mag Flow Meter" },
             ],
             images:[
-                { id: '1', img:"https://5.imimg.com/data5/SELLER/Default/2025/9/545774896/TM/FQ/QO/209080/mag-flow-meter-125x125.jpeg" },
-                { id: '2', img:"https://5.imimg.com/data5/SELLER/Default/2025/7/524612641/HU/UO/ZY/209080/cgwa-flow-meter-125x125.png" },
-                { id: '3', img:"https://5.imimg.com/data5/SELLER/Default/2025/7/524556845/JB/VB/RB/209080/cgwa-flow-meter-125x125.jpeg" },
+                { id: '1', img:"/src/assets/image26.jpeg" },
+                { id: '2', img:"/src/assets/image29.jpeg" },
+                { id: '3', img:"/src/assets/image27.jpeg" },
             ]
         },
         {
             id: '4',
-            text: "Software Engineer",
-            img:"/src/assets/img3.jpeg",
+            text: "Magflow Flow Meter",
+            img:"/src/assets/image4.jpeg",
             price:"17000",
             list: [
                 { id: '1', label: "Nominal Diameter ", label2: "25 mm" },
@@ -75,15 +78,15 @@ const RightBox = () => {
                 { id: '5', label: "Country of Origin", label2: "Mag Flow Meter" },
             ],
             images:[
-                { id: '1', img:"https://5.imimg.com/data5/SELLER/Default/2025/9/545774896/TM/FQ/QO/209080/mag-flow-meter-125x125.jpeg" },
-                { id: '2', img:"https://5.imimg.com/data5/SELLER/Default/2025/7/524612641/HU/UO/ZY/209080/cgwa-flow-meter-125x125.png" },
-                { id: '3', img:"https://5.imimg.com/data5/SELLER/Default/2025/7/524556845/JB/VB/RB/209080/cgwa-flow-meter-125x125.jpeg" },
+                { id: '1', img:"/src/assets/image26.jpeg" },
+                { id: '2', img:"/src/assets/image29.jpeg" },
+                { id: '3', img:"/src/assets/image27.jpeg" },
             ]
         },
         {
             id: '5',
-            text: "Software Engineer",
-            img:"/src/assets/img5.jpeg",
+            text: "Magnetic Flow Meter",
+            img:"/src/assets/image5.jpeg",
             price:"17000",
             list: [
                 { id: '1', label: "Nominal Diameter ", label2: "25 mm" },
@@ -94,15 +97,15 @@ const RightBox = () => {
                 { id: '5', label: "Country of Origin", label2: "Mag Flow Meter" },
             ],
             images:[
-                { id: '1', img:"https://5.imimg.com/data5/SELLER/Default/2025/9/545774896/TM/FQ/QO/209080/mag-flow-meter-125x125.jpeg" },
-                { id: '2', img:"https://5.imimg.com/data5/SELLER/Default/2025/7/524612641/HU/UO/ZY/209080/cgwa-flow-meter-125x125.png" },
-                { id: '3', img:"https://5.imimg.com/data5/SELLER/Default/2025/7/524556845/JB/VB/RB/209080/cgwa-flow-meter-125x125.jpeg" },
+                { id: '1', img:"/src/assets/image26.jpeg" },
+                { id: '2', img:"/src/assets/image29.jpeg" },
+                { id: '3', img:"/src/assets/image27.jpeg" },
             ]
         },
         {
             id: '6',
             text: "Software Engineer",
-            img:"/src/assets/img6.jpeg",
+            img:"/src/assets/image6.jpeg",
             price:"17000",
             list: [
                 { id: '1', label: "Nominal Diameter ", label2: "25 mm" },
@@ -113,15 +116,15 @@ const RightBox = () => {
                 { id: '5', label: "Country of Origin", label2: "Mag Flow Meter" },
             ],
             images:[
-                { id: '1', img:"https://5.imimg.com/data5/SELLER/Default/2025/9/545774896/TM/FQ/QO/209080/mag-flow-meter-125x125.jpeg" },
-                { id: '2', img:"https://5.imimg.com/data5/SELLER/Default/2025/7/524612641/HU/UO/ZY/209080/cgwa-flow-meter-125x125.png" },
-                { id: '3', img:"https://5.imimg.com/data5/SELLER/Default/2025/7/524556845/JB/VB/RB/209080/cgwa-flow-meter-125x125.jpeg" },
+                { id: '1', img:"/src/assets/image26.jpeg" },
+                { id: '2', img:"/src/assets/image29.jpeg" },
+                { id: '3', img:"/src/assets/image27.jpeg" },
             ]
         },
         {
             id: '7',
             text: "Software Engineer",
-            img:"/src/assets/img7.jpeg",
+            img:"/src/assets/image7.jpeg",
             price:"17000",
             list: [
                 { id: '1', label: "Nominal Diameter ", label2: "25 mm" },
@@ -132,9 +135,9 @@ const RightBox = () => {
                 { id: '5', label: "Country of Origin", label2: "Mag Flow Meter" },
             ],
             images:[
-                { id: '1', img:"https://5.imimg.com/data5/SELLER/Default/2025/9/545774896/TM/FQ/QO/209080/mag-flow-meter-125x125.jpeg" },
-                { id: '2', img:"https://5.imimg.com/data5/SELLER/Default/2025/7/524612641/HU/UO/ZY/209080/cgwa-flow-meter-125x125.png" },
-                { id: '3', img:"https://5.imimg.com/data5/SELLER/Default/2025/7/524556845/JB/VB/RB/209080/cgwa-flow-meter-125x125.jpeg" },
+                { id: '1', img:"/src/assets/image26.jpeg" },
+                { id: '2', img:"/src/assets/image29.jpeg" },
+                { id: '3', img:"/src/assets/image27.jpeg" },
             ]
         },
     ]
@@ -142,11 +145,11 @@ const RightBox = () => {
     
 
   return (
-        <div className='px-2 mt-2'>
+        <div className='px-2 mt-2 '>
             {
                 details.map((detail) => {
                     return(
-                    <div>
+                    <div id={detail.classid} className=' w-full min-h-screen'>
                         <div className='flex items-center justify-center '>
                             <h1 className='font-bold text-2xl bg-gray-100 pb-2 py-1 px-3 w-full'>{detail.text}</h1>
                             <div className='flex items-center justify-center gap-1 border px-3 py-1 border-emerald-900 text-emerald-900 rounded-full whitespace-nowrap'>
@@ -156,7 +159,7 @@ const RightBox = () => {
                         </div>
                         <div className='flex my-3 gap-5'>
                             <div className=' w-1/2 h-[38vw] relative'>
-                                <img className='w-full h-full object-contain' src={detail.img} alt="" />
+                                <img className='w-full h-full object-contain cursor-pointer' src={detail.img} alt="" />
                                 <div className='absolute bottom-10 left-40 bg-white text-emerald-900  flex items-center border px-8 py-1 border-emerald-900 hover:bg-emerald-900 hover:text-white rounded-full '>
                                     <button className='text-md font-bold'>Get Best Quote</button>
                                 </div>
@@ -166,7 +169,7 @@ const RightBox = () => {
                                     <h2 className=' text-2xl'><span>$</span> {detail.price} <span className=' text-sm'>/Price</span></h2>
                                     <h1 className=' text-xl leading-tight underline '>Get Latest Price</h1>
                                 </div>
-                                <h2 className='hover:underline '>Product Brochure</h2>
+                                <h2 className='hover:underline cursor-pointer'>Product Brochure</h2>
                                 <div className=''>
                                     {
                                         detail.list.map((item) => {

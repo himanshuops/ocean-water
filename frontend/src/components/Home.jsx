@@ -1,92 +1,87 @@
 import React from 'react'
 import { FaRegHandshake } from "react-icons/fa";
-import { BiSolidRightArrowAlt } from "react-icons/bi";
-import Button from './Button';
 import Box1 from './Boxes1/Box1';
 import Box2 from './Boxes1/Box2';
 import Box3 from './Boxes1/Box3';
-import VideoBox from './Boxes1/VideoBox';
-import Rating from './Boxes1/Rating';
-import Reviews from './Boxes1/Reviews';
 
 const Home = () => {
     const image = [
         {
-            img:"/src/assets/img1.jpeg",
+            img:"/src/assets/image20.jpeg",
             text:"New Development"
         },
         {
-            img:"/src/assets/img2.jpeg",
+            img:"/src/assets/image21.jpeg",
             text:"Flow Meter"
         },
         {
-            img:"/src/assets/img3.jpeg",
+            img:"/src/assets/image22.jpeg",
             text:"Water Meters"
         },
         {
-            img:"/src/assets/img4.jpeg",
+            img:"/src/assets/image23.jpeg",
             text:"Ultrasonic Flow Meter"
         },
         {
-            img:"/src/assets/img5.jpeg",
+            img:"/src/assets/image24.jpeg",
             text:"Electromagnetic Flow Merter"
         },
         {
-            img:"/src/assets/img6.jpeg",
+            img:"/src/assets/image25.jpeg",
             text:"Residential Water Merter"
         },
         {
-            img:"/src/assets/img7.jpeg",
+            img:"/src/assets/image26.jpeg",
             text:"Dosing Pump"
         },
         {
-            img:"https://5.imimg.com/data5/ANDROID/Default/2024/7/438427143/AZ/NJ/HI/209080/product-jpeg-125x125.jpg",
+            img:"/src/assets/image27.jpeg",
             text:"Water Meter Box"
         },
         {
-            img:"https://5.imimg.com/data5/ANDROID/Default/2024/7/436562872/YF/RU/XJ/209080/product-jpeg-125x125.jpg",
+            img:"/src/assets/image29.jpeg",
             text:"Turbin Flow Meter"
         }
     ]
     const image2 = [
 
         {
-            img:"/src/assets/img7.jpeg",
+            img:"/src/assets/image5.jpeg",
             text:"New Development",
             tag:{ isOpen:true, tagTitle:"Download Now . .", tagColor:"yellow"},
         },
         {
-            img:"/src/assets/img3.jpeg",
+            img:"/src/assets/image4.jpeg",
             text:"Flow Meter",
             tag:{ isOpen:true, tagTitle:"Download Now . .", tagColor:"yellow"},
         },
         {
-            img:"/src/assets/img4.jpeg",
+            img:"/src/assets/image7.jpeg",
             tag:{ isOpen:false, tagTitle:"Download Now . .", tagColor:"yellow"},
         },
     ]
     const image3 = [
 
         {
-            img:"https://5.imimg.com/data5/ANDROID/Default/2024/7/438475671/GO/GJ/JM/209080/product-jpeg-250x250.jpg",
+            img:"/src/assets/image8.jpeg",
             text:"New Development",
             tag:{ isOpen:true, tagTitle:"Download Now . .", tagColor:"yellow"},
         },
         {
-            img:"https://5.imimg.com/data5/ANDROID/Default/2024/7/438427143/AZ/NJ/HI/209080/product-jpeg-250x250.jpg",
+            img:"/src/assets/image9.jpeg",
             text:"Flow Meter",
             tag:{ isOpen:true, tagTitle:"Download Now . .", tagColor:"yellow"},
         },
         {
-            img:"https://5.imimg.com/data5/ANDROID/Default/2024/7/438456437/MR/YE/KZ/209080/product-jpeg-250x250.jpg",
+            img:"/src/assets/image10.jpeg",
             tag:{ isOpen:false, tagTitle:"Download Now . .", tagColor:"yellow"},
         },
         {
-            img:"https://5.imimg.com/data5/ANDROID/Default/2024/7/436564943/CY/XJ/RP/209080/product-jpeg-250x250.jpg",
+            img:"/src/assets/image11.jpeg",
             tag:{ isOpen:false, tagTitle:"Download Now . .", tagColor:"yellow"},
         },
         {
-            img:"https://5.imimg.com/data5/ANDROID/Default/2024/7/438456437/MR/YE/KZ/209080/product-jpeg-250x250.jpg",
+            img:"/src/assets/image12.jpeg",
             tag:{ isOpen:false, tagTitle:"Download Now . .", tagColor:"yellow"},
         },
     ]
@@ -104,7 +99,7 @@ const Home = () => {
         {
             icon:<FaRegHandshake size={50} />,
             text1:"GST Registration Date",
-            text2:"01-07-2017"
+            text2:"01-07-2024"
         },
         {
             icon:<FaRegHandshake size={50} />,
@@ -228,8 +223,8 @@ const Home = () => {
         <div className='bg-white py-4 px-1 flex justify-between'>
             <div className='w-[40%] px-1'>
                 <h2 className='mt-2 font-sans text-[1.7rem] text-gray-600'>WELCOME TO</h2>
-                <h1 className='font-bold text-[2.3rem] text-gray-800'>OCEAN WATER AND ENVIRO SOLUTIONS </h1>
-                <p className='my-2 text-[15px]'>We,<span className='font-semibold'>OCEAN WATER AND ENVIRO SOLUTIONS</span> from <span className='font-semibold'>1981</span> are one of a leading manufacturer of high-quality <span className='font-semibold'>Water meters,Flow Meters and Liquid Measuring Instruments</span>  committed to precision, durability, and innovation. <span className='font-semibold'>Read More...</span> </p>
+                <h1 className='font-bold text-[2.3rem] text-gray-800'>Everest Sanitation (India) </h1>
+                <p className='my-2 text-[15px]'>We,<span className='font-semibold'>Everest Sanitation (India)</span> from <span className='font-semibold'>1981</span> are one of a leading manufacturer of high-quality <span className='font-semibold'>Water meters,Flow Meters and Liquid Measuring Instruments</span>  committed to precision, durability, and innovation. <span className='font-semibold'>Read More...</span> </p>
                 <p className='my-3 text-gray-700'>GET IN TOUCH WITH US FOR BEST DEALS</p>
                 <div className='flex justify-center items-center w-50 h-13  rounded-md cursor-pointer text-white text-md font-semibold bg-teal-800 hover:text-teal-800 hover:bg-transparent border border-teal-800'>
                     <div>
@@ -259,11 +254,7 @@ const Home = () => {
 
         <Box1/>
         <Box2/>
-        <Box3/>
-        <VideoBox/>
-        <Rating/>
-        <Reviews/>
-        
+        <Box3/>       
     </div>
   )
 }
